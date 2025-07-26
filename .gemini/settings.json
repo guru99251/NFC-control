@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "supabase": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@supabase/mcp-server-supabase@latest",
+                "--read-only",
+                "--project-ref=diposium-1st-nfc"
+            ],
+            "env": {
+                "SUPABASE_ACCESS_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlmZ2Z2cmRnbW5rYXFzbXF4dnFzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MzUyNjEyNywiZXhwIjoyMDY5MTAyMTI3fQ.inJXlqgi01g34JhSMRqxaAp1pwi0iUBAs7gVYks3n-0"
+            }
+        }
+    } 
+}
