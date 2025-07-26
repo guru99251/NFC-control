@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Local App",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/local-app/listener.py"
+    },
+    {
+      "name": "Node: API Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/src/index.js"
+    },
+    {
+      "name": "Next.js: Frontend",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/client"
+    }
+  ]
+}
